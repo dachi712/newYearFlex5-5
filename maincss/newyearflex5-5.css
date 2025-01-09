@@ -103,7 +103,7 @@ main{
     width: 100%;
 }
 
-.earnP {
+.earnh2 {
     font-size: 72px;
     color: #fff;
     font-weight: 900;
@@ -112,6 +112,8 @@ main{
 .depositDiv {
     max-width: 546px;
     width: 100%;
+    display: flex;
+    
 }
 
 .depositP {
@@ -188,6 +190,53 @@ main{
     display: flex;
     max-width: 181px;
     width: 100%;
+    flex-direction: column;
+    gap: 16px;
+}
+.boostedDiv{
+    display: flex;
+    gap: 22px;
+}
+.bostedTextDiv{
+    display: flex;
+    max-width: 567px;
+    width: 100%;
+    flex-direction: column;
+    gap: 16px;
+}
+.greenBorderDiv{
+    max-width: 91px;
+    width: 100%;
+    border: 1px solid #00FF1A;
+    height: 0px;
+}
+.LiquidityProviderDiv{
+    display: flex;
+    max-width: 237px;
+    width: 100%;
+    gap: 12px;
+    align-items:center;
+}
+.frogH3{
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+.WithdrawalsDiv{
+    display: flex;
+    gap: 16px;
+}
+.WithdrawalsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.boostP{
+    color: #7A7A7A;
+}
+.paymentMethodDiv{
+    display: flex;
     flex-direction: column;
     gap: 16px;
 }
