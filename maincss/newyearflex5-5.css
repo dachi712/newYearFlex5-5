@@ -90,7 +90,7 @@ main{
     max-width: 152px;
     width: 100%;
     display: flex;
-    justify-content: right;
+    
 }
 
 .welcomeConvexP {
@@ -230,7 +230,6 @@ main{
     display: flex;
     flex-direction: column;
     gap: 16px;
-
 }
 .boostP{
     color: #7A7A7A;
@@ -239,4 +238,30 @@ main{
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+.howitworksMainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.ourprocesDiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    max-width: 197px;
+}
+.howitworksDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cardsDiv{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1040px;
 }
