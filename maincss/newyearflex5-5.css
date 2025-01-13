@@ -52,11 +52,13 @@ header {
     color: #000000;
     font-weight: 700;
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
     gap: 112px;
 }
+
 .betterBoostContainer {
     display: flex;
     justify-content: space-between;
@@ -90,7 +92,7 @@ main{
     max-width: 152px;
     width: 100%;
     display: flex;
-    
+
 }
 
 .welcomeConvexP {
@@ -113,7 +115,7 @@ main{
     max-width: 546px;
     width: 100%;
     display: flex;
-    
+
 }
 
 .depositP {
@@ -146,7 +148,8 @@ main{
     color: #FFFFFF;
     padding: 12px 24px;
 }
-.valuteDiv{
+
+.valuteDiv {
     display: flex;
     max-width: 815px;
     width: 100%;
@@ -154,99 +157,116 @@ main{
     border-top: 1px solid #00FF1A;
     justify-content: space-between;
 }
-.convexValuteDiv{
+
+.convexValuteDiv {
     display: flex;
     max-width: 158px;
     width: 100%;
     flex-direction: column;
     gap: 16px;
 }
-.numbersP{
+
+.numbersP {
     font-size: 32px;
     color: #fff;
     font-weight: 500;
 }
-.numbersTextP{
+
+.numbersTextP {
     color: #7A7A7A;
     font-size: 20px;
     font-weight: 400;
 
 }
-.revenueDiv{
+
+.revenueDiv {
     display: flex;
     max-width: 161px;
     width: 100%;
     flex-direction: column;
     gap: 16px;
 }
-.earnedDiv{
+
+.earnedDiv {
     display: flex;
     max-width: 195px;
     width: 100%;
     flex-direction: column;
     gap: 16px;
 }
-.lockedDiv{
+
+.lockedDiv {
     display: flex;
     max-width: 181px;
     width: 100%;
     flex-direction: column;
     gap: 16px;
 }
-.boostedDiv{
+
+.boostedDiv {
     display: flex;
     gap: 22px;
 }
-.bostedTextDiv{
+
+.bostedTextDiv {
     display: flex;
     max-width: 567px;
     width: 100%;
     flex-direction: column;
     gap: 16px;
 }
-.greenBorderDiv{
+
+.greenBorderDiv {
     max-width: 91px;
     width: 100%;
     border: 1px solid #00FF1A;
     height: 0px;
 }
-.LiquidityProviderDiv{
+
+.LiquidityProviderDiv {
     display: flex;
     max-width: 237px;
     width: 100%;
     gap: 12px;
-    align-items:center;
+    align-items: center;
 }
-.frogH3{
+
+.frogH3 {
     font-size: 32px;
     color: #FFFFFF;
     font-weight: 900;
 }
-.WithdrawalsDiv{
+
+.WithdrawalsDiv {
     display: flex;
     gap: 16px;
 }
-.WithdrawalsWrapper{
+
+.WithdrawalsWrapper {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.boostP{
+
+.boostP {
     color: #7A7A7A;
 }
-.paymentMethodDiv{
+
+.paymentMethodDiv {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.howitworksMainDiv{
+
+.howitworksMainDiv {
     display: flex;
     flex-direction: column;
     gap: 32px;
     align-items: center;
     justify-content: center;
 }
-.ourprocesDiv{
+
+.ourprocesDiv {
     display: flex;
     align-items: center;
     width: 100%;
@@ -254,14 +274,361 @@ main{
     gap: 12px;
     max-width: 197px;
 }
-.howitworksDiv{
+
+.howitworksDiv {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-.cardsDiv{
+
+.cardsWrapper {
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
     max-width: 1040px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.firstCardDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 245px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 37px;
+}
+
+.firstRegisterDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-right: 1px solid #4A4A4E;
+    padding-right: 10px;
+    max-width: 245px;
+    width: 100%;
+
+}
+
+.RegisterH3 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.registerP {
+    color: #7A7A7A;
+    font-weight: 500;
+}
+
+.secondRegisterDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #4A4A4E;
+    max-width: 245px;
+    width: 100%;
+}
+
+.thirdRegisterDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 10px;
+    max-width: 245px;
+    width: 100%;
+}
+
+.crvMainDiv {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    gap: 22px;
+}
+
+.crvTextDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 509px;
+    width: 100%;
+    gap: 16px;
+}
+
+.crvH2 {
+    font-size: 72px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.crvP {
+    font-size: 20px;
+    color: #7A7A7A;
+    font-weight: 500;
+}
+
+.curveDivOne {
+    display: flex;
+    padding: 0 16px 24px 16px;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #00FF1A;
+}
+
+.curveDiv {
+    display: flex;
+    padding: 0 16px 24px 16px;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #4A4A4E;
+}
+
+.depositH3 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.tokensP {
+    color: #7A7A7A;
+    font-weight: 500;
+    max-width: 403px;
+    width: 100%;
+}
+
+.testimonialsMainDiv {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    gap: 24px;
+    margin-bottom: 225px;
+}
+
+.testemonialsTextDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 624px;
+    width: 100%;
+    gap: 24px;
+}
+
+.costumerDiv {
+    display: flex;
+    padding: 24px 32px;
+    gap: 16px;
+    background: #1C1C20;
+    margin-top: 12px;
+}
+
+.costumerTextDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    width: 100%;
+    gap: 12px;
+}
+
+.WilliamsonDiv {
+    display: flex;
+    max-width: 440px;
+    width: 100%;
+    align-items: center;
+}
+
+.cameronP {
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.whiteBorderDiv {
+    border: 1px solid #FFFFFF;
+    max-width: 12px;
+    width: 100%;
+    height: 0px;
+}
+
+.NewYorkP {
+    color: #7A7A7A;
+    font-size: 14px;
+    margin-left: 4px;
+    margin-right: 13px;
+}
+
+.amazingDiv {
+    max-width: 313px;
+    width: 100%;
+}
+
+.amazingH3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.PellentesqueP {
+    color: #B7B7B7;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 136.023%;
+}
+
+span {
+    color: #00FF1A;
+}
+
+.twonineDiv {
+    display: flex;
+    justify-content: end;
+}
+
+.arrowsDiv {
+    display: flex;
+    gap: 16px;
+}
+
+.supportDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 624px;
+    width: 100%;
+    gap: 12px;
+}
+
+.satisfactionDiv {
+    display: flex;
+    padding: 32px;
+    background: #1C1C20;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.satisfactionH3 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 900;
+    max-width: 495px;
+    width: 100%;
+}
+
+.phoneNumberDiv {
+    gap: 12px;
+    align-items: center;
+    display: flex;
+}
+
+.phoneNumberP {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.formWrapperDiv {
+    display: flex;
+    padding: 24px 32px;
+    max-width: 392px;
+    width: 100%;
+    background: #1C1C20;
+    align-items: center;
+}
+
+.formDiv {
+    display: flex;
+    max-width: 328px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.testimonialsFormDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.leaveMessageH3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.formInput {
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background-color: #1C1C20;
+    color: #7A7A7A;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.descriptionInput {
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background-color: #1C1C20;
+    color: #7A7A7A;
+    height: 155px;
+    width: 100%;
+    padding-bottom: 139px;
+}
+
+.submitInput {
+    padding: 12px 16px;
+    width: 100%;
+    border-radius: 4px;
+    background: #00FF1A;
+    border: 1px solid #00FF1A;
+    color: #000000;
+}
+footer{
+    display: flex;
+    padding: 40px 0px;
+    border-top: 1px solid #00FF1A;
+    background: #040405;
+    justify-content: center;
+}
+.footerWrapper{
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+}
+.companyFooterDiv{
+    display: flex;
+    flex-direction: column;
+    max-width: 73px;
+    width: 100%;
+    gap: 16px;
+}
+.comunityFooterDiv{
+    display: flex;
+    flex-direction: column;
+    max-width: 112px;
+    width: 100%;
+    gap: 16px;
+}
+.footerH3{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.footerlinks{
+    color: #7A7A7A;
+}
+.followDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.followSpan{
+    color: #FFFFFF;
+}
+.socialLinksDiv{
+    display: flex;
+    gap: 16px;
 }
